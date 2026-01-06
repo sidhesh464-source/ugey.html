@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><br><br><br>
+        <div class="container">
+        <div class="sr">login page </div><br><br><br>
+        <input type="text" id="username" placeholder="name"><br><br><br>
+        <input type="number" id="password" placeholder="date of birth"><br><br><br><br><br>
+        <button class="sk" onclick="Login()">Login</button>
+        <p id="message" class="error"></p>
+                 
+           
+           
+        </div>
+    </center>
+<script>
+    function Login() {
+        
+        const Username = "ugendara";
+        const Password = "06012008";
+
+        
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+
+        
+        if (username === Username && password === Password) {
+            window.location.href = "web.html"; 
+        } 
+        else {
+            document.getElementById("message").innerText ="Invalid username or password!";
+        }
+
+    }
+    
+</script>
+
+
+    
+</body>
+</html>

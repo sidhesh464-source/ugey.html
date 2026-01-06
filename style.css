@@ -1,0 +1,64 @@
+.ss{
+    background-color: antiquewhite;
+    background-color: azure;
+    width: 100%
+    ;
+}
+.sk{
+    background-color:palevioletred;
+    width: 100px;
+    cursor: pointer;
+
+}
+.container{
+    background-color: aquamarine;
+    background-color: blanchedalmond;
+    height: 400px;
+    width: 350px;
+
+}
+.sr{
+    background-color: salmon;
+    height: 25px;
+    padding-top: 5px;
+}
+.q{
+    background-color: brown;
+}
+input {
+            width: 60%;
+            padding: 8px;
+            margin: 8px 0;
+            cursor: pointer;
+        }
+button {
+            width: 50%;
+            padding: 8px;
+            cursor: pointer;
+}
+        
+.error {
+            color: red;
+}
+
+.sa{
+    background-color: bisque;
+    height: 70px;
+    padding-top: 16px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.x{
+     font-size:28px;
+            margin-top:20px;
+            background:none;
+            border:none;
+            color:#d81b60;
+            font-weight:bold;
+}
+body{
+    background-color: aquamarine;
+    background-color: azure;
+}
